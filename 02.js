@@ -1,0 +1,10 @@
+let fruits = ["ფორთოხალი", "ბანანი", "მსხალი"];
+console.log(fruits);
+fruits.push("ვაშლი", "ანანასი");
+fruits.unshift("საზამთრო");
+console.log(fruits);
+fruits.splice(2, 0, "მანგო");
+console.log(fruits);
+fruits.shift();
+fruits.pop();
+console.log(fruits);
